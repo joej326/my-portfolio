@@ -10,11 +10,11 @@
   margin: 0px 10px 0px 10px;
   font-size: 1vw;
   text-shadow:
-      1px 1px 0 #000,
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+      0.05vw 0.05vw 0 #000,
+    -0.05vw -0.05vw 0 #000,
+     0.05vw -0.05vw 0 #000,
+     -0.05vw 0.05vw 0 #000,
+      0.05vw 0.05vw 0 #000;
 }
 .social-media-logos{
   display: flex;
@@ -23,8 +23,7 @@
 .social-media-logos li{
   margin: 0px 10px 0px 10px;
   font-size: 1.5vw;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #454545;
+
 }
 .social-media-logos li a{
   color: white;

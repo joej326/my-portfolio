@@ -9,7 +9,7 @@
 }
 .skills-main p{
   font-size: 2vw;
-  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 0.05vw 0.05vw 0 #000, -0.05vw -0.05vw 0 #000, 0.05vw -0.05vw 0 #000, -0.05vw 0.05vw 0 #000, 0.05vw 0.05vw 0 #000;
   color: white;
 }
 .skills-main:nth-child(1){
