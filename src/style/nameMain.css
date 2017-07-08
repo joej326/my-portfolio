@@ -1,7 +1,7 @@
 .name-main{
-  background: rgba(27, 151, 168,0.5);
+  /*background: rgba(27, 151, 168,0.5);*/
   margin: 0vw 5vw 5vw 5vw;
-  border: 4px solid black;
+  /*border: 4px solid black;*/
   border-radius: 20px;
   color: white;
   text-shadow:
@@ -10,6 +10,8 @@
      3px -3px 0 #000,
      -3px 3px 0 #000,
       3px 3px 0 #000;
+  position: relative;
+  right: 100vw;
 }
 .name-main h4 {
     font-size: 7vw;
@@ -22,3 +24,12 @@
   font-size: 4vw;
   margin: 0vw 0vw 4.5vw 0vw;
 }
+
+
+/*@keyframes flip {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+    left: -50vw; }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+    left: 0vw; } }*/

@@ -22,7 +22,7 @@ export default class Paralax extends Component{
 
 
         <div className='space-creator'></div>
-        <NameMain />
+        {/* <NameMain /> */}
 
 
         <div className='project-rows-container'>

@@ -8,7 +8,7 @@
   background: linear-gradient(-90deg, #1B97A8, #52bab7,#1B97A8, #52bab7,#1B97A8); /* Standard syntax */
 }
 .skills-main p{
-  font-size: 5vw;
+  font-size: 2vw;
   text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
 }
@@ -16,7 +16,7 @@
   text-decoration: underline;
 }
 .skills-main svg{
-  width: 15vw;
+  width: 10vw;
 }
 .fa-5x{
   font-size: 16vw;
@@ -32,7 +32,9 @@
   margin: 0vw 0vw !important;
 }
 .angular-icon{
-  width: 25vw !important;
+  width: 18vw !important;
+  position: relative;
+  left: 1vw;
   margin-right: 0vw !important;
   margin-left: 0vw !important;
 }

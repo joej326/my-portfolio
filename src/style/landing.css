@@ -1,0 +1,29 @@
+.landing-main{
+  background-image: url('http://i.imgur.com/CrGdvv3.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vw;
+}
+.space-creator{
+  height: 6vw;
+}
+.landing-logos{
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 38vw 0vw 38vw;
+  align-items: center;
+  background: rgba(0, 0, 0,0.5);
+  height: 0vw;
+}
+.landing-logos h1{
+  font-size: 3vw;
+  opacity: 0;
+}
+
+.landing-logos h1 a{
+  color: white;
+}
+
+.landing-logos h1 a:hover{
+  color: #23deac;
+}

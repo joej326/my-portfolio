@@ -58,7 +58,7 @@ $(window).scroll(function () {
               $('.back-to-top').animate({top:'-1vw'})
             }
             if ($(window).scrollTop() <= target) {
-              $('.back-to-top').animate({top:'-5vw'},50)
+              $('.back-to-top').animate({top:'-11vw'},50)
             }
         }, 250);
     }
@@ -81,7 +81,7 @@ $(window).scroll(function () {
 
       <div className='header-main'>
         <div>
-          <h4>Welcome!</h4>
+          <h4>josephjoyce.net</h4>
         </div>
         <ul className='social-media-logos nav nav-pills'>
           <li><a className='portfolio' href='#'>Portfolio</a></li>

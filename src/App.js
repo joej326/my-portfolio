@@ -9,6 +9,7 @@ import Paralax from './components/Paralax';
 import Footer from './containers/Footer';
 import Skills from './containers/Skills';
 import About from './containers/About';
+import Landing from './containers/Landing';
 
 class App extends Component {
 
@@ -54,6 +55,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Landing />
         <Paralax />
         <Skills />
         <About />

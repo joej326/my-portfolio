@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import { connect } from 'react-redux';
+import $ from 'jquery';
 
 import './../style/nameMain.css';
 
@@ -9,8 +10,11 @@ import './../style/nameMain.css';
 
 
 export default class NameMain extends Component{
-  constructor(props){
-    super(props);
+
+  componentDidMount(){
+    $('.name-main').animate({right: '-24.5vw'},600)
+    $('.name-main').animate({right: '5vw'},200)
+    $('.name-main').animate({right: '0vw'},300)
   }
 
   render(){
