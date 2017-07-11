@@ -17,7 +17,7 @@ class App extends Component {
     $(document).ready(function(){
       $('.hover').on('mouseenter', function(){
         $(this).css({position:'relative'});
-        $(this).animate({bottom: '1vw'},200);
+        $(this).stop().animate({bottom: '1vw'},200);
       });
       $('.hover').on('mouseleave', function(){
         $(this).stop();
