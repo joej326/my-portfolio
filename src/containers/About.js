@@ -31,7 +31,7 @@ export default class About extends Component{
                <br />
 
                In my freetime you will probably find me reading,
-              rollerblading/longboarding, gaming, or of course: <span>coding</span>.
+              rollerblading/longboarding, gaming, and of course: <span>developing</span>.
 
             </p>
           </div>
