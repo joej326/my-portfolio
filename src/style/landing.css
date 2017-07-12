@@ -50,8 +50,18 @@
 .landing-logos h1 a:hover{
   /*color: #23deac;*/
 }
-@media (max-width: 890px){
+@media (max-width: 685px){
+  .landing-logos h1{
+    bottom: -0.5vw !important;
+  }
+}
+@media (max-width: 475px){
   .landing-logos h1{
     bottom: -1vw !important;
+  }
+}
+@media (max-width: 400px){
+  .landing-logos h1{
+    bottom: -1.5vw !important;
   }
 }
