@@ -9,6 +9,7 @@
 }
 .landing-logos{
   display: flex;
+  position: relative;
   justify-content: space-between;
   padding: 0vw 38vw 0vw 38vw;
   align-items: center;
@@ -16,8 +17,30 @@
   height: 0vw;
 }
 .landing-logos h1{
+  position: absolute;
   font-size: 3vw;
   opacity: 0;
+  transition: transform 0.5s, font-size 0.5s;
+}
+.landing-logos h1:hover{
+  transform: translate(-15%,0%);
+  font-size: 5vw;
+}
+.landing-logos h1:nth-child(1){
+  left: 37vw;
+  bottom: 0vw;
+
+}
+.landing-logos h1:nth-child(2){
+  left: 47vw;
+  bottom: 0vw;
+
+}
+.landing-logos h1:nth-child(3){
+  left: 57vw;
+  bottom: 0vw;
+
+
 }
 
 .landing-logos h1 a{
@@ -25,5 +48,10 @@
 }
 
 .landing-logos h1 a:hover{
-  color: #23deac;
+  /*color: #23deac;*/
+}
+@media (max-width: 890px){
+  .landing-logos h1{
+    bottom: -1vw !important;
+  }
 }

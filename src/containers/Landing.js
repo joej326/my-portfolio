@@ -19,6 +19,13 @@ componentDidMount(){
   $(logo1).delay(1200).animate({opacity:'1'},500);
   $(logo2).delay(1400).animate({opacity:'1'},500);
   $(logo3).delay(1600).animate({opacity:'1'},500);
+
+  // $('.landing-logos h1').on('mouseenter', function(){
+  //   $(this).stop().animate({fontSize: '5vw'});
+  // });
+  // $('.landing-logos h1').on('mouseleave', function(){
+  //   $(this).stop().animate({fontSize: '3vw'});
+  // });
 }
 
 
