@@ -34,13 +34,27 @@
 .contact-field{
   padding: 4vw 0vw 0vw 0vw;
 }
-.contact-field p{
+.contact-field div{
+  background-image: url('https://i.ytimg.com/vi/_kaqhy2iV7c/maxresdefault.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 1.5vw 0vw 1vw 0vw;
+    border-radius: 2vw;
+    margin: 0vw 33vw 0vw 33vw;
+    background-position-y: 139px;
+}
+.contact-field div p{
   font-size: 1.5vw;
   color: white;
 }
+.contact-field p{
 
-.contact-field p:nth-child(3){
+}
+
+.copyright{
   background: #147961;
+  color: white;
+  font-size: 0.5vw;
   padding: 0.5vw 0vw 0.5vw 0vw;
   margin-bottom: 0px;
   font-size: 1vw;

@@ -8,7 +8,7 @@
   background: linear-gradient(-90deg, #1B97A8, #52bab7,#1B97A8, #52bab7,#1B97A8); /* Standard syntax */
 }
 .skills-main p{
-  font-size: 2vw;
+  font-size: 1.7vw;
   text-shadow: 0.05vw 0.05vw 0 #000, -0.05vw -0.05vw 0 #000, 0.05vw -0.05vw 0 #000, -0.05vw 0.05vw 0 #000, 0.05vw 0.05vw 0 #000;
   color: white;
 }
@@ -16,30 +16,32 @@
   text-decoration: underline;
 }
 .skills-main svg{
-  width: 10vw;
+  width: 7vw;
 }
 .fa-5x{
   font-size: 16vw;
 }
 .logo-row{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0vw 17vw 0vw 17vw;
 }
+
 .react-icon{
   position: relative;
-  left: 1.5vw;
+  left: 0.2vw;
   margin: 0vw 0vw !important;
 }
 .angular-icon{
-  width: 18vw !important;
+  width: 12vw !important;
   position: relative;
-  left: 1vw;
+  left: 0.3vw;
   margin-right: 0vw !important;
   margin-left: 0vw !important;
 }
 .logo-row *{
-  margin: 4vw;
+  margin: 2vw;
 }
 .heroku{
   fill: #7E57C2;

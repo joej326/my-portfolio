@@ -13,7 +13,7 @@ export default class Skills extends Component{
     return (
     <div className='skills-main'>
 
-      <p>━━━━━━━━━━━━━━━━━━━━ SKILLS ━━━━━━━━━━━━━━━━━━━━</p>
+      <p>━━━━━━━━━━━━━━━━━━━━━ SKILLS ━━━━━━━━━━━━━━━━━━━━</p>
 
       <div className="logo-row">
         {/* REACT */}
