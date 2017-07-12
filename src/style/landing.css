@@ -18,26 +18,27 @@
 }
 .landing-logos h1{
   position: absolute;
+  transform: translate(-50%,0%);
   font-size: 3vw;
   opacity: 0;
   transition: transform 0.5s, font-size 0.5s;
 }
 .landing-logos h1:hover{
-  transform: translate(-15%,0%);
+  /*transform: translate(-15%,0%);*/
   font-size: 5vw;
 }
 .landing-logos h1:nth-child(1){
-  left: 37vw;
+  left: 40vw;
   bottom: 0vw;
 
 }
 .landing-logos h1:nth-child(2){
-  left: 47vw;
+  left: 50vw;
   bottom: 0vw;
 
 }
 .landing-logos h1:nth-child(3){
-  left: 57vw;
+  left: 60vw;
   bottom: 0vw;
 
 
