@@ -46,10 +46,11 @@
 .contact-field div p{
   font-size: 1.5vw;
   color: white;
+  margin: 1vw 0vw 1vw 0vw;
 }
-.contact-field p{
-
-}
+/*.contact-field p{
+  margin: 0vw 0vw 1vw 0vw;
+}*/
 
 .copyright{
   background: #147961;
