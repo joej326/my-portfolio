@@ -21,9 +21,9 @@ export default class Footer extends Component{
         </ul>
 
 <div className='contact-field'>
-  <div>
-    <p>E-mail: joej326@gmail.com</p>
-    <p>Phone: (415) 686-5329</p>
+  <div className='contact'>
+    <p><i className="fa fa-envelope" aria-hidden="true"></i> joej326@gmail.com</p>
+    <p><span id='phone'><i className="fa fa-mobile" aria-hidden="true"></i></span> (415) 686-5329</p>
   </div>
   <p className='copyright'>© Joseph Joyce 2017</p>
 </div>

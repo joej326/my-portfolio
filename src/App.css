@@ -11,3 +11,24 @@ input{
 textarea:nth-child(3){
   width: 2vw;
 }
+
+@media(max-width: 770px){
+  .footer-main h3{
+    font-size: 5vw !important;
+  }
+  .social-media-logos-footer{
+    font-size: 8vw !important
+  }
+  .contact-field div{
+    background-image: unset !important;
+    width: 100%;
+
+  }
+  .contact-field div p{
+    font-size: 4vw !important;
+    margin: 0vw !important;
+  }
+  #phone{
+    font-size: 8vw !important;
+  }
+}
