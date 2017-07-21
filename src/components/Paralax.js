@@ -48,7 +48,7 @@ export default class Paralax extends Component{
             <a
               href='http://i.imgur.com/PSUsBq5.png'
               target='_blank' >
-            <img className='resume' src="http://i.imgur.com/6yHqoKK.png" alt="resume"/>
+            <img className='resume' src="http://i.imgur.com/yTtgkYI.png" alt="resume"/>
             <h3>Resume</h3>
             </a>
           </div>
