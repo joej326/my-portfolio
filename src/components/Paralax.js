@@ -46,7 +46,7 @@ export default class Paralax extends Component{
       <div className="project-container">
           <div className='hover resume-div'>
             <a
-              href='http://i.imgur.com/PSUsBq5.png'
+              href='http://i.imgur.com/yTtgkYI.png'
               target='_blank' >
             <img className='resume' src="http://i.imgur.com/yTtgkYI.png" alt="resume"/>
             <h3>Resume</h3>
