@@ -44,14 +44,7 @@ export default class Paralax extends Component{
 
 {/* //NOT PROJECTS */}
       <div className="project-container">
-          <div className='hover resume-div'>
-            <a
-              href='http://i.imgur.com/yTtgkYI.png'
-              target='_blank' >
-            <img className='resume' src="http://i.imgur.com/yTtgkYI.png" alt="resume"/>
-            <h3>Resume</h3>
-            </a>
-          </div>
+
 
 
           <a
@@ -59,7 +52,7 @@ export default class Paralax extends Component{
             target='_blank' >
           <div className='hover youtube-div'>
 
-            <img className='resume' src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" alt="resume"/>
+            <img className='resume' src="http://i.imgur.com/zuQrtap.png" alt="resume"/>
             <h3>My YouTube Tutorials</h3>
 
           </div>
