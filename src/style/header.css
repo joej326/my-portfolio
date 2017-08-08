@@ -8,8 +8,9 @@
   border-bottom: 4px solid black;
 }
 .header-main div h4{
-  margin: 0px 10px 0px 10px;
-  font-size: 1vw;
+  font-family: 'Marck Script', cursive;
+  margin: 0px 1vw 0px 1vw;
+  font-size: 2vw;
   text-shadow:
       0.05vw 0.05vw 0 #000,
     -0.05vw -0.05vw 0 #000,

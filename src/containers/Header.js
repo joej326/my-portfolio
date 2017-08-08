@@ -81,7 +81,7 @@ $(window).scroll(function () {
 
       <div className='header-main'>
         <div>
-          <h4>josephjoyce.net</h4>
+          <h4>JJ</h4>
         </div>
         <ul className='social-media-logos nav nav-pills'>
           <li><a className='portfolio' href='#'>Portfolio</a></li>
