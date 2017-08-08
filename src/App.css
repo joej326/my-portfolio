@@ -11,6 +11,9 @@ input{
 textarea:nth-child(3){
   width: 2vw;
 }
+p{
+  font-family: 'Sanchez', serif;
+}
 h2{
   font-family: 'Sanchez', serif;
 }
