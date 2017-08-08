@@ -11,6 +11,12 @@ input{
 textarea:nth-child(3){
   width: 2vw;
 }
+h2{
+  font-family: 'Sanchez', serif;
+}
+h3{
+  font-family: 'Sanchez', serif;
+}
 
 @media(max-width: 770px){
   .footer-main h3{

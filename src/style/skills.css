@@ -8,6 +8,7 @@
   background: linear-gradient(-90deg, #1B97A8, #52bab7,#1B97A8, #52bab7,#1B97A8); /* Standard syntax */
 }
 .skills-main p{
+  font-family: 'Sanchez', serif;
   font-size: 1.7vw;
   text-shadow: 0.05vw 0.05vw 0 #000, -0.05vw -0.05vw 0 #000, 0.05vw -0.05vw 0 #000, -0.05vw 0.05vw 0 #000, 0.05vw 0.05vw 0 #000;
   color: white;

@@ -92,3 +92,14 @@ padding: 0vw 3vw 2vw 3vw;
   top: 1vw;
   color: white;
 }
+#many-more{
+  position: relative;
+  top: 3vw;
+}
+#more-on-github{
+  color: #d61313;
+  text-decoration: underline;
+}
+#more-on-github:hover{
+  color: #6cd3e6;
+}
