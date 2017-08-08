@@ -37,6 +37,7 @@ export default class Paralax extends Component{
               <Project title='UC Davis Clone' thumbnail='http://i.imgur.com/wooXzXW.png' link='http://198.199.104.39:8011/' />
               <Project title='Admin Dashboard' thumbnail='http://i.imgur.com/3mqY61Y.png' link='https://www.youtube.com/watch?v=j5z6mhGqv58' />
               <Project title='Simple Weather App' thumbnail='http://i.imgur.com/v78Frs2.png' link='http://198.199.104.39:8033/' />
+              <Project title='Amazon Clone (Coming Soon)' thumbnail='http://i.imgur.com/rOiG3Dd.png' link='#' />
             </div>
           </div>
 
