@@ -21,18 +21,25 @@ export default class About extends Component{
           </div>
           <div className='about-paragraph'>
             <h2>About Me:</h2>
+            <br />
             <p>
-               Learning and teaching are probably my two
-               favorite things in the whole world. <br />
-                I also love having deep conversations with people. <br />
-               If you love philosophy like I do,
-               we could probably talk for hours on end. <br />
-               (If you don't like philosophy, don't get me started! I may bore you with my deep thoughts!) <br />
-               <br />
-
-               In my freetime you will probably find me reading,
-              rollerblading/longboarding, gaming, and of course: <span>developing</span>.
-
+              Hello. I'm Joe. I code. <br />
+              <br />
+              I'm a Full Stack Web Developer. I live and breathe code. <br />
+              It's a true miracle to me that something like code can be so <span>fun</span>, and yet so <span>practical</span>. <br />
+              <br />
+              I love sharing my <span>passion</span> of coding/development with others. <br />
+              Ever since I was a child people have told me what a great <span>teacher</span> I am. <br />
+              I believe it comes from my ability to tell how someone else thinks. <br />
+              I can then figure out why they're getting stuck.<br />
+              <br />
+              I'm very <span>personable</span> and easy to talk to. Don't be afraid to reach out! <br />
+              It's a lot of fun to meet the interesting minds the world has to offer. <br />
+              <br />
+              Thank you for checking out my website. <br />
+              Have a great rest of your day! <br />
+              <br />
+              Joseph
             </p>
           </div>
 

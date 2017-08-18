@@ -25,5 +25,7 @@
   line-height: 2.3vw;
 }
 .about-paragraph span{
-  font-weight: bolder;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #2e5974;
 }
