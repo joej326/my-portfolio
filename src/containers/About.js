@@ -30,8 +30,8 @@ export default class About extends Component{
               <br />
               I love sharing my <span>passion</span> of coding/development with others. <br />
               Ever since I was a child people have told me what a great <span>teacher</span> I am. <br />
-              I believe it comes from my ability to tell how someone else thinks. <br />
-              I can then figure out why they're getting stuck.<br />
+              I believe my teaching comes from my ability to tell how others think. <br />
+              That way I can figure out why they're getting stuck.<br />
               <br />
               I'm very <span>personable</span> and easy to talk to. Don't be afraid to reach out! <br />
               It's a lot of fun to meet the interesting minds the world has to offer. <br />
