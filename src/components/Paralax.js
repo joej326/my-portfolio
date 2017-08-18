@@ -31,9 +31,9 @@ export default class Paralax extends Component{
             <h3 className='projects-mini'>Projects:</h3>
             <div className='project-container'>
               <div className="project-row">
-                <Project link='https://www.youtube.com/watch?v=2aAHu8qtJdE' title='Skateboard Clone' thumbnail='http://i.imgur.com/4UV8LQM.jpg' />
+                <Project link='https://www.youtube.com/watch?v=2aAHu8qtJdE' title={['Skateboard Clone', <br />, '(Video)']} thumbnail='http://i.imgur.com/4UV8LQM.jpg' />
                 <Project title='UC Davis Clone' thumbnail='http://i.imgur.com/wooXzXW.png' link='http://198.199.104.39:8011/' />
-                <Project title='Admin Dashboard' thumbnail='http://i.imgur.com/3mqY61Y.png' link='https://www.youtube.com/watch?v=j5z6mhGqv58' />
+                <Project title={['Admin Dashboard',<br />, '(Video)']} thumbnail='http://i.imgur.com/3mqY61Y.png' link='https://www.youtube.com/watch?v=j5z6mhGqv58' />
               </div>
               <div className="project-row">
                 <Project title='Simple Weather App' thumbnail='http://i.imgur.com/v78Frs2.png' link='http://198.199.104.39:8033/' />
