@@ -28,7 +28,7 @@ export default class Paralax extends Component{
         <div className='project-rows-container'>
           <h2>Portfolio</h2>
           <div className='projects-before-resume'>
-            <h3 className='projects-mini'>Projects:</h3>
+            <h3 className='projects-mini'>Some of my work:</h3>
             <div className='project-container'>
               <div className="project-row">
                 <Project link='https://www.youtube.com/watch?v=2aAHu8qtJdE' title={['Skateboard Clone', <br />, '(Video)']} thumbnail='http://i.imgur.com/4UV8LQM.jpg' />
