@@ -30,15 +30,15 @@ export default class Paralax extends Component{
           <div className='projects-before-resume'>
             <h3 className='projects-mini'>Some of my work:</h3>
             <div className='project-container'>
-              <div className="project-row">
-                <Project link='https://www.youtube.com/watch?v=2aAHu8qtJdE' title={['Skateboard Clone', <br />, '(Video)']} thumbnail='http://i.imgur.com/4UV8LQM.jpg' />
-                <Project title='UC Davis Clone' thumbnail='http://i.imgur.com/wooXzXW.png' link='http://198.199.104.39:8011/' />
-                <Project title={['Admin Dashboard',<br />, '(Video)']} thumbnail='http://i.imgur.com/3mqY61Y.png' link='https://www.youtube.com/watch?v=j5z6mhGqv58' />
+              <div className="project-row row1">
+                <Project github='https://github.com/joej326/personal_project' link='https://www.youtube.com/watch?v=2aAHu8qtJdE' title={['Skateboard Clone', <br />, '(Video)']} thumbnail='http://i.imgur.com/4UV8LQM.jpg' />
+                <Project github='https://github.com/joej326/UCdavis-clone' title='UC Davis Clone' thumbnail='http://i.imgur.com/wooXzXW.png' link='http://198.199.104.39:8011/' />
+                <Project github='https://github.com/TheCodingCrusaders/glorious-group-project/tree/master/the-project' title={['Admin Dashboard',<br />, '(Video)']} thumbnail='http://i.imgur.com/3mqY61Y.png' link='https://www.youtube.com/watch?v=j5z6mhGqv58' />
               </div>
               <div className="project-row">
-                <Project title='Simple Weather App' thumbnail='http://i.imgur.com/v78Frs2.png' link='http://198.199.104.39:8033/' />
-                <Project title='Peet&#39;s Coffee Clone' thumbnail='http://i.imgur.com/ZPfOYXU.png' link='http://198.199.104.39:8017' />
-                <Project title={['Amazon Clone', <br />, '(Coming Soon)']} thumbnail='http://i.imgur.com/rOiG3Dd.png' link='#' />
+                <Project github='https://github.com/joej326/react-weather-app' title='Simple Weather App' thumbnail='http://i.imgur.com/v78Frs2.png' link='http://198.199.104.39:8033/' />
+                <Project github='https://github.com/joej326/peets-clone' title='Peet&#39;s Coffee Clone' thumbnail='http://i.imgur.com/ZPfOYXU.png' link='http://198.199.104.39:8017' />
+                <Project github='https://github.com/the-code-warriors/amazon-clone' title={['Amazon Clone', <br />, '(Coming Soon)']} thumbnail='http://i.imgur.com/rOiG3Dd.png' link='#' />
               </div>
             </div>
             <h2 id='many-more'>Many more projects on my <a id='more-on-github' href='https://github.com/joej326'>Github</a>!</h2>

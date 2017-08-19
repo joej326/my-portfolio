@@ -96,11 +96,15 @@ padding: 0vw 3vw 2vw 3vw;
   top: 1vw;
   color: white;
 }
+.row1{
+  margin: 3vw 0vw 3vw 0vw;
+}
 #many-more{
   position: relative;
   top: 3vw;
 }
 #more-on-github{
+  transition: color 1s;
   color: #d61313;
   text-decoration: underline;
 }

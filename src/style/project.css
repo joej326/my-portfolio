@@ -5,18 +5,38 @@
   animation: onhover 1s linear;
 }*/
 .project-main-div h3{
+  text-shadow: 0.05vw 0.05vw 0 black, -0.05vw -0.05vw 0 black, 0.05vw -0.05vw 0 black, -0.05vw 0.05vw 0 black, 0.05vw 0.05vw 0 black;
+  transition: font-weight 0.5s, color 0.5s;
   color: white;
   text-decoration: underline;
   font-size: 2vw;
 }
+.hover:hover h3{
+  font-weight: bolder;
+  text-shadow: 0.05vw 0.05vw 0 white, -0.05vw -0.05vw 0 white, 0.05vw -0.05vw 0 white, -0.05vw 0.05vw 0 white, 0.05vw 0.05vw 0 white;
+  color: #15478c;
+}
 .project{
   width: 20vw;
-  margin: 3vw 3vw 0vw 3vw;
+  margin: 0vw 3vw 0vw 3vw;
   border: 3px solid white;
   box-shadow: 10px 10px 10px black;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.project-github-link{
+  color: #15478c;
+  margin: 0vw 0vw 0vw 0vw;
+  font-size: 1.5vw;
+}
+
+.project-github-link:hover{
+  color: #c46502;
+}
+
+.projects-mini{
+  margin-bottom: 3vw;
 }
 
 /*@keyframes onhover {
