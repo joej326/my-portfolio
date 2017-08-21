@@ -31,11 +31,11 @@
 .project-github-link{
   opacity: 0;
   transition: opacity 1s;
-  font-weight: bold;
+  font-weight: bolder;
   text-shadow: 0.025vw 0.025vw 0 white, -0.025vw -0.025vw 0 white, 0.025vw -0.025vw 0 white, -0.025vw 0.025vw 0 white, 0.025vw 0.025vw 0 white;
   color: #15478c;
   margin: 0vw 0vw 0vw 0vw;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 
 .project-github-link:hover{
