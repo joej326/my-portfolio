@@ -14,9 +14,10 @@
 }
 .about-paragraph{
   margin: 0vw 7vw 0vw 0vw;
-
 }
 .about-paragraph h2{
+  margin-bottom: 2vw;
+  margin-top: 2vw;
   text-decoration: underline;
   font-size: 2vw;
 }

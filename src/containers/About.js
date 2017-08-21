@@ -21,7 +21,7 @@ export default class About extends Component{
           </div>
           <div className='about-paragraph'>
             <h2>About Me:</h2>
-            <br />
+            
             <p>
               Hello. I'm Joe. I code. <br />
               <br />
