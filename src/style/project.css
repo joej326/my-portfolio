@@ -26,9 +26,11 @@
   box-sizing: border-box;
 }
 .project-github-link{
+  font-weight: bold;
+  text-shadow: 0.025vw 0.025vw 0 white, -0.025vw -0.025vw 0 white, 0.025vw -0.025vw 0 white, -0.025vw 0.025vw 0 white, 0.025vw 0.025vw 0 white;
   color: #15478c;
   margin: 0vw 0vw 0vw 0vw;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .project-github-link:hover{
