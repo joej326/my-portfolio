@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 
+import $ from 'jquery';
 import './../style/project.css';
 
 
@@ -8,6 +9,14 @@ export default class Project extends Component{
   constructor(props){
     super(props);
   }
+  // componentDidMount(){
+  //   $('.project-main-div').on('mouseenter', function(){
+  //     $(this).find('.project-github-link').fadeTo(500, 1);
+  //   });
+  //   $('.project-main-div').on('mouseleave', function(){
+  //     $(this).find('.project-github-link').fadeTo(500, 0);
+  //   });
+  // }
 
   render(){
     console.log(this.props.thumbnail);

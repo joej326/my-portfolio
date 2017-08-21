@@ -11,6 +11,9 @@
   text-decoration: underline;
   font-size: 2vw;
 }
+.project-main-div:hover .project-github-link{
+  opacity: 1;
+}
 .hover:hover h3{
   font-weight: bolder;
   text-shadow: 0.05vw 0.05vw 0 white, -0.05vw -0.05vw 0 white, 0.05vw -0.05vw 0 white, -0.05vw 0.05vw 0 white, 0.05vw 0.05vw 0 white;
@@ -26,6 +29,8 @@
   box-sizing: border-box;
 }
 .project-github-link{
+  opacity: 0;
+  transition: opacity 1s;
   font-weight: bold;
   text-shadow: 0.025vw 0.025vw 0 white, -0.025vw -0.025vw 0 white, 0.025vw -0.025vw 0 white, -0.025vw 0.025vw 0 white, 0.025vw 0.025vw 0 white;
   color: #15478c;

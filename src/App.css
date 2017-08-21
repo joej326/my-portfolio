@@ -40,4 +40,7 @@ h3{
   #phone{
     font-size: 8vw !important;
   }
+  .project-github-link{
+    opacity: 1 !important;
+  }
 }
