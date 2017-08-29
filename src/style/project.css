@@ -10,6 +10,7 @@
   color: white;
   text-decoration: underline;
   font-size: 2vw;
+  margin: 1vw 0vw 0vw 0vw;
 }
 .project-main-div:hover .project-github-link{
   opacity: 1;

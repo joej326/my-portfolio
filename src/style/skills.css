@@ -9,6 +9,7 @@
 }
 .skills-main p{
   font-family: 'Sanchez', serif;
+  margin: 0vw;
   font-size: 1.7vw;
   text-shadow: 0.05vw 0.05vw 0 #000, -0.05vw -0.05vw 0 #000, 0.05vw -0.05vw 0 #000, -0.05vw 0.05vw 0 #000, 0.05vw 0.05vw 0 #000;
   color: white;
