@@ -17,24 +17,16 @@ export default class Skills extends Component{
     $(window).scroll(function () {
       console.log($(window).scrollTop());
 
-      if ($(window).scrollTop() >= 1000 && flag === false) {
-        for(let i = 0;i<=2;i++){
+      if ($(window).scrollTop() >= 1500 && flag === false) {
 
-          setTimeout(()=>{
-            if(i === 0){
-              $(`.single-skill:nth-child(1)`).animate({opacity: 1, right: '0vw'},1000);
-            }
-            if(i === 1){
-              $(`.single-skill:nth-child(2)`).animate({opacity: 1, right: '0vw'},1000);
-            }
-            if(i === 2){
-              $(`.single-skill:nth-child(3)`).animate({opacity: 1, right: '0vw'},1000);
-            }
+          $(`.single-skill`).each((i, obj)=>{
+            console.log(i);
+            $(obj).delay(200 * i).animate({opacity: 1, right: '0vw'},1000);
+          });
+          // setTimeout(()=>{
+          //   $(`.single-skill:nth-child(${i+1})`).delay(500 * i).animate({opacity: 1, right: '0vw'},1000);
+          // });
 
-          },1000);
-
-
-        }
         flag = true;
       }
 
