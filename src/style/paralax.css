@@ -11,6 +11,7 @@
   justify-content: space-around;
 }
 .project-rows-container {
+  opacity: 0;
     background: rgba(27, 151, 168,0.5);
     border-radius: 30px;
     margin: 0vw 1vw 0vw 1vw;

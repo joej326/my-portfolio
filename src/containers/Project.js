@@ -19,7 +19,7 @@ export default class Project extends Component{
   // }
 
   render(){
-    console.log(this.props.thumbnail);
+    
     return (
       <div className='hover project-main-div'>
         <a target='_blank' href={this.props.github}><p className='project-github-link'><i className="fa fa-github" aria-hidden="true"></i>View Code On Github</p></a>

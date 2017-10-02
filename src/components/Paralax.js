@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import { connect } from 'react-redux';
+import $ from 'jquery';
 
 import './../style/paralax.css';
 import NameMain from './Name_Main';
@@ -13,6 +14,26 @@ import Project from './../containers/Project';
 export default class Paralax extends Component{
   constructor(props){
     super(props);
+  }
+  componentDidMount(){
+    let flag = false;
+    $('.project-rows-container').animate({opacity: 0, right: '0vw'},1000);
+    // $('.project-rows-container').css({opacity: 0.5});
+    $(window).scroll(function () {
+      console.log($(window).scrollTop());
+
+      if ($(window).scrollTop() >= 500 && flag === false) {
+        $('.project-rows-container').css({ position: 'relative',
+                                           right: '50vw'
+                                           });
+        $('.project-rows-container').animate({opacity: 1, right: '0vw'},1000);
+        flag = true;
+      }
+
+    });
+
+
+
   }
 
   render(){

@@ -10,7 +10,7 @@ export default class About extends Component{
   }
 
   render(){
-    console.log(this.props.thumbnail);
+    
     return (
       <div className='about-main-div'>
 
@@ -21,7 +21,7 @@ export default class About extends Component{
           </div>
           <div className='about-paragraph'>
             <h2>About Me:</h2>
-            
+
             <p>
               Hello. I'm Joe. I code. <br />
               <br />
