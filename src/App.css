@@ -22,6 +22,13 @@ h3{
 }
 
 @media(max-width: 770px){
+  .single-skill{
+    opacity: 1 !important;
+  }
+  .project-rows-container{
+    opacity: 1 !important;
+    right: 0vw !important;
+  }
   .footer-main h3{
     font-size: 5vw !important;
   }
