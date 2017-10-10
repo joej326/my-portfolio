@@ -17,7 +17,7 @@ export default class Skills extends Component{
     $(window).scroll(function () {
       console.log($(window).scrollTop());
 
-      if ($(window).scrollTop() >= 1500 && flag === false) {
+      if ($(window).scrollTop() >= 1700 && flag === false) {
 
           $(`.single-skill`).each((i, obj)=>{
             console.log(i);
